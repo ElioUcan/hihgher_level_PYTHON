@@ -50,7 +50,7 @@ def products():
     elif source == 'csv':
         products_list = read_csv_products()
     else:
-        return render_template('product_display.html', error+'Wrong source')
+        return render_template('product_display.html', error='Wrong source')
 
     if product_id:
         products_list = [
