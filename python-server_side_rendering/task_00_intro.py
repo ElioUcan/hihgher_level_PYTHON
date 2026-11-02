@@ -34,11 +34,7 @@ def generate_invitations(template:str, attendees: List):
 
     elif len(attendees) == 0:
         print('No data provided, no output files generated.')
-        return
-
-    dics = [isinstance(dic, dict) for dic in attendees]
-    if all(dics) == False:
-        print('No data provided, no output files generated.')
+        returtput files generated.')
         return
 
     for index, dic in enumerate(attendees, start=1):
