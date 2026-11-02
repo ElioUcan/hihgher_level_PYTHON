@@ -36,7 +36,7 @@ def items():
     try:
         with open('items.json', 'r') as file:
             data = json.load(file)
-    	items_list = data.get('items', [])
+            items_list = data.get('items', [])
     except (FileNotFoundError, json.JSONDecodeError):
         items_list = []
     return render_template('items.html', items=items_list)
