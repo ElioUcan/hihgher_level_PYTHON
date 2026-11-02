@@ -1,4 +1,4 @@
 [
-  {"id": 1, "name": "Laptop", "category": "Electronics". "price": 799.99},
-  {"id": 2, "name": "Coffe Mug", "category": "Home Goods". "price": 15.99}
+  {"id": 1, "name": "Laptop", "category": "Electronics", "price": 799.99},
+  {"id": 2, "name": "Coffe Mug", "category": "Home Goods", "price": 15.99}
 ]
